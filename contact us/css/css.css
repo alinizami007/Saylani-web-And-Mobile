@@ -1,3 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+
 @media only screen and (max-width: 800px) {
   .pop {
       margin-top: 10px;
@@ -17,30 +21,13 @@
     }
 
 
+.nap {
+	background-size:cover;
 
-    .q {
-        box-shadow: 2px 2px 4px gray;
-        margin-bottom:30px;
-        transition:0.5s;
-        
-        }     
-        
-        
-    .q:hover {
-        transform:scale(1.1,1.1);
-        
-        }	
+	}
 
 
-
-        	
-.kaka {
-	margin-top:40px;
-	
-	}	
-    
-    
-    #footer{
+  #footer{
 		background-color: #2A2A2A ;
 		width: 100%;
 		height: auto;

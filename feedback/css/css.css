@@ -1,46 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
 @media only screen and (max-width: 800px) {
-  .pop {
-      margin-top: 10px;
-      
-      
-    }
-  }
+	.pop {
+		margin-top: 10px;
+		
+		
+	  }
+	}
+  
+	@media only screen and (max-width: 800px) {
+	  .pop1 {
+		  margin-top: 15px;
+	  
+	  
+		  
+		}
+	  }
+  
 
-
-  @media only screen and (max-width: 800px) {
-    .pop1 {
-        margin-top: 15px;
-    
-    
-        
-      }
-    }
-
-
-
-    .q {
-        box-shadow: 2px 2px 4px gray;
-        margin-bottom:30px;
-        transition:0.5s;
-        
-        }     
-        
-        
-    .q:hover {
-        transform:scale(1.1,1.1);
-        
-        }	
-
-
-
-        	
-.kaka {
-	margin-top:40px;
+.head {
+	background-image:url(../pic9.jpg);
+    background-repeat:no-repeat;
+	background-position:center;
+	height:600px;
+	background-size:cover;
+	}
+	
+	
+.line {
+	font-family: 'Pacifico', cursive;
+     margin-top:30px;
+	 font-size:50px;
 	
 	}	
-    
-    
-    #footer{
+	
+.seed {
+	font-family: 'Pacifico', cursive;
+    font-size:36px;
+	
+	}	
+	
+
+.dark {
+	background-color:rgba(0,0,0,1);
+	
+	}
+	
+	
+.van {
+	margin-top:60px;
+	margin-left:60px;
+	margin-bottom:30px;
+	float:left;
+	
+	}	
+	
+	
+h5 {
+font-family: 'Lobster', cursive;
+ 	
+	}	
+
+
+
+	#footer{
 		background-color: #2A2A2A ;
 		width: 100%;
 		height: auto;
@@ -163,3 +189,10 @@
 		line-height: 50px;
 		font-size: 15px;
 	}
+
+
+	
+	
+
+	
+	
