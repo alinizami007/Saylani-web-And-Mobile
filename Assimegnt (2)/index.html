@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="home" style="position: absolute;">
+        <a href="../index.html"><img src="../images/home.png" alt="" width="50px"></a>
+    </div>
+
+    <div id="logo">
+        <center>
+        <img src="Saylani-logo.png" alt="Saylani-Logo" width="500px">
+    </center>
+    </div>
+    <h2>
+        STUDENT REGISTRATION FORM
+        <br>
+        Done by : WM1887
+    </h2>
+
+    <div class="wrapper">
+        <form action="submitted.html">
+
+            <label for="firstName" class="formLabel">
+                <span>First Name</span> <input type="text" id="firstName" maxlength="30"
+                    placeholder="Enter first name" required> (Max 30 characters a-z and A-Z)
+            </label>
+
+            <br>
+
+            <label for="lastName" class="formLabel">
+                <span>Last Name</span> <input type="text" id="lastName" maxlength="30"
+                    placeholder="Enter last name" required> (Max 30 characters a-z and A-Z)
+            </label>
+
+            <br>
+
+            <label for="DOB" class="formLabel">
+                <span>Date of Birth</span>
+                <select id="DOB" required>
+                    <option value="" disabled selected>Day</option>
+                    <option value="Day">1</option>
+                    <option value="Day">2</option>
+                    <option value="Day">3</option>
+                    <option value="Day">4</option>
+                    <option value="Day">5</option>
+                    <option value="Day">6</option>
+                    <option value="Day">7</option>
+                    <option value="Day">8</option>
+                    <option value="Day">9</option>
+                    <option value="Day">10</option>
+                    <option value="Day">11</option>
+                    <option value="Day">12</option>
+                    <option value="Day">13</option>
+                    <option value="Day">14</option>
+                    <option value="Day">15</option>
+                    <option value="Day">16</option>
+                    <option value="Day">17</option>
+                    <option value="Day">18</option>
+                    <option value="Day">19</option>
+                    <option value="Day">21</option>
+                    <option value="Day">22</option>
+                    <option value="Day">23</option>
+                    <option value="Day">24</option>
+                    <option value="Day">25</option>
+                    <option value="Day">26</option>
+                    <option value="Day">27</option>
+                    <option value="Day">28</option>
+                    <option value="Day">29</option>
+                    <option value="Day">30</option>
+                    <option value="Day">31</option>
+                </select>
+
+                <select id="DOB" required>
+                    <option value="" disabled selected>Month</option>
+                    <option value="January">Jan</option>
+                    <option value="January">Feb</option>
+                    <option value="January">Mar</option>
+                    <option value="January">Apr</option>
+                    <option value="January">May</option>
+                    <option value="January">Jun</option>
+                    <option value="January">Jul</option>
+                    <option value="January">Agu</option>
+                    <option value="January">Sep</option>
+                    <option value="January">Oct</option>
+                    <option value="January">Nov</option>
+                    <option value="January">Dem</option>
+                </select>
+
+                <select id="DOB" required>
+                    <option value="" disabled selected>Year</option>
+                    <option value="1980">1990</option>
+                    <option value="1980">1991</option>
+                    <option value="1980">1992</option>
+                    <option value="1980">1993</option>
+                    <option value="1980">1994</option>
+                    <option value="1980">1995</option>
+                    <option value="1980">1996</option>
+                    <option value="1980">1997</option>
+                    <option value="1980">1998</option>
+                    <option value="1980">1999</option>
+                    <option value="1980">2000</option>
+                    <option value="1980">2001</option>
+                    <option value="1980">2002</option>
+                    <option value="1980">2003</option>
+                    <option value="1980">2004</option>
+                    <option value="1980">2005</option>
+                    <option value="1980">2006</option>
+                    <option value="1980">2007</option>
+                    <option value="1980">2008</option>
+                    <option value="1980">2009</option>
+                    <option value="1980">2010</option>
+                    <option value="1980">2011</option>
+                    <option value="1980">2012</option>
+                </select>
+            </label>
+
+            <br>
+
+            <label for="email" class="formLabel">
+                <span>Email ID</span> <input type="email" id="email" maxlength="40" required
+                    placeholder="Enter email address">
+            </label>
+
+            <br>
+
+            <label for="mobile" class="formLabel">
+                <span>Mobile Number</span> <input type="tel" id="mobile"
+                    pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" maxlength="10" required
+                    placeholder="3xxxxxxxxx"> (10 digit number)
+            </label>
+
+            <br>
+
+            <label for="gender" class="formLabel">
+                <span>Gender</span>
+                Male <input type="radio" id="gender">
+                Female <input type="radio" id="gender">
+            </label>
+
+            <br>
+
+            <label for="address" class="formLabel">
+                <span>Address</span> <textarea name="address" id="address" cols="22" rows="5" required
+                    placeholder="Enter present address."></textarea>
+            </label>
+
+            <br>
+
+            <label for="city" class="formLabel">
+                <span>City</span> <input type="text" id="city" maxlength="30" required placeholder="Enter City"> (Max 30
+                characters a-z and A-Z)
+            </label>
+
+            <br>
+
+            <label for="pin" class="formLabel">
+                <span>Pin Code</span> <input type="text" id="pin" maxlength="6" required
+                    placeholder="Enter 6 digit Pin"> (6 Digit Number)
+            </label>
+
+            <br>
+
+            <label for="state" class="formLabel">
+                <span>State</span> <input type="text" id="state" maxlength="30" required placeholder="Enter State"> (Max
+                30 characters a-z and A-Z)
+            </label>
+
+            <br>
+
+            <label for="country" class="formLabel">
+                <span>Country</span> <input type="text" id="country" maxlength="30" required
+                    placeholder="Enter Country">
+            </label>
+
+            <br>
+
+            <label for="hobbies" class="formLabel">
+                <span>Hobbies</span>
+            </label>
+            <label for="drawing" class="formLabel">Drawing <input name="drawing" type="checkbox" id="drawing">
+            </label>
+            <label for="singing" class="formLabel">Singing <input name="singing" type="checkbox" id="singing">
+            </label>
+            <label for="sketching" class="formLabel">Sketching <input name="sketching" type="checkbox" id="sketching">
+            </label>
+
+            <br>
+
+            <label class="formLabel"> </label><span id="blankSpan">&nbsp</span>
+            </label>
+            <label for="others" class="formLabel">Others <input name="others" type="checkbox" id="others">
+                <input name="others" type="text" id="others">
+            </label>
+
+            <br>
+
+            <label for="qualification" class="formLabel">
+                <span>Qualification</span>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="centAlign">Sr.No.</th>
+                            <th class="centAlign">Examination</th>
+                            <th class="centAlign">Board</th>
+                            <th class="centAlign">Percentage</th>
+                            <th class="centAlign">Year of Passing</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="centAlign">1</td>
+                            <td>Class X</td>
+                            <td><input type="text" name="board" id="board" required></td>
+                            <td><input type="number" min="0" max="100" step="0.01" name="percentage" id="percentage"
+                                    required></td>
+                            <td><input type="text" name="year" id="year" maxlength="4" required></td>
+                        </tr>
+
+                        <tr>
+                            <td class="centAlign">2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" name="board" id="board" required></td>
+                            <td><input type="number" min="0" max="100" step="0.01" name="percentage" id="percentage"
+                                    required></td>
+                            <td><input type="text" name="year" id="year" maxlength="4" required></td>
+                        </tr>
+                        <tr>
+                            <td class="centAlign">3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" name="board" id="board" required></td>
+                            <td><input type="number" min="0" max="100" step="0.01" name="percentage" id="percentage"
+                                    required></td>
+                            <td><input type="text" name="year" id="year" maxlength="4" required></td>
+                        </tr>
+                        <tr>
+                            <td class="centAlign">4</td>
+                            <td>Masters</td>
+                            <td><input type="text" name="board" id="board" required></td>
+                            <td><input type="number" min="0" max="100" step="0.01" name="percentage" id="percentage"
+                                    required></td>
+                            <td><input type="text" name="year" id="year" maxlength="4" required></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td class="centAlign">(10 char max)</td>
+                            <td class="centAlign">(upto 2 decimal)</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br>
+
+                <label for="courses" class="formLabel">
+                    <span>Courses Aplied For </span>
+                    BCA <input class="radioPad" type="radio" id="gender" required>
+                    B. Com <input class="radioPad" type="radio" id="gender" required>
+                    B.Sc <input class="radioPad" type="radio" id="gender" required>
+                    B.A <input class="radioPad" type="radio" id="gender" required>
+                </label>
+                <br>
+                <br>
+                <div ><center>
+                   <a href="thankyou.html"><input type="button" style="color: black;" value="submit" name="submit"></a>
+                    <input type="reset" style="color: black;" value="reset" name="rsset">
+                </center>
+                    <!-- <button class="btn">Reset</button> -->
+                </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,404 @@
+
+	*, ul, li{
+		padding: 0;
+		margin: 0;
+	}
+	
+	body{
+		font-family: 'Open Sans', sans-serif;
+		
+	}
+	
+	#top-header{
+		background-color: #316DC3;
+	}
+	
+	@media only screen and (max-width:991px){
+		.top-header{
+			text-align: center;
+		}
+		
+		.collapse li ul {
+			background:#F5F5F5;
+			width: 100%;
+		}
+	}
+	.top-header .social-btns{
+		text-decoration: none;
+		line-height: 50px;
+		color: #ffffff;
+		margin: 0 10px 0 10px;
+		width: 40px;
+		font-size: 20px;
+		padding: 5px 10;
+		transition: 0.5s;
+	}
+
+	.top-header .social-btns:hover{
+		transform: scale(1.2,1.2);
+		color:cyan;
+	}
+	
+	.top-header .social-btns:first-child{
+		margin-left: 0;
+	}
+	
+	.top-header .social-btns:last-child{
+		margin-right: 0;
+	}
+	
+	.top-header p{
+		font-size: 15px;
+		color: #ffffff;
+		margin: 14px 0 14px 0;
+		font-weight: lighter;
+		text-align: center;
+	}
+	
+	.top-header .custom-bottons{
+		background-color: #F5F5F5;
+		line-height: 50px;
+		padding: 5px; 
+		text-decoration: none;
+		border: 1px solid green;
+		color: green;
+		font-size: 15px;
+		text-align: right;
+	}
+	
+	.collapse ul {
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+	.collapse ul:before, .collapse ul:after {
+		display:table;
+	}
+	.collapse ul:after {
+		clear:both;
+	}
+	.collapse ul li {
+		float:left;
+		position:relative;
+	}
+	.collapse a {
+		display:block;
+		padding:10px 20px;
+		line-height:1.2em;
+		color:#333333;
+		text-decoration: none;
+	}
+	.collapse a:hover {
+		background-color: #316DC3;
+		border-radius: 50px;
+		color: #ffffff !important;
+	}
+	.collapse li ul {
+		background:#F5F5F5;
+	}
+	.collapse li ul li {
+		width:200px;
+	}
+	.collapse li ul a {
+		border:none;
+		color: #666;
+	}
+	.collapse li ul a:hover {
+		background:#316DC3;
+		border-radius: 0px;
+	}
+	.collapse li ul {
+		position:absolute;
+		left:0;
+		top:36px;
+		z-index:1;
+		max-height:0;
+		overflow:hidden;
+		
+	}
+	.collapse ul > li:hover ul {
+		max-height:1000px;
+	}
+	
+	
+	.marquee-box{
+		width: 100%;
+		height: auto;
+		background-color: #316DC3;
+		
+	}
+	
+	.marquee-box marquee{
+		line-height: 20px;
+		
+	}
+	
+	#intro{
+		background-color: #F7F8FA;
+		margin-top: 20px;
+		width: 100%;
+		height: auto;
+	}
+	
+	.heading span:first-child{
+		font-size: 40px;
+		text-transform: uppercase;
+		font-family: 'Merriweather', serif;
+		font-weight: 600;
+		color: #316DC3;
+	}
+	
+	.heading span:last-child{
+		font-size: 40px;
+		text-transform: uppercase;
+		font-family: 'Merriweather', serif;
+		font-weight: 600;
+		color: #427900 !important;
+	}    
+	
+	.heading-icon{
+		position: relative;
+		margin: auto;
+		width: 150px;
+	}
+	
+	.heading-icon::before{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 50px;
+		border-bottom: 2px solid #427900;
+	}
+	
+	.heading-icon::after{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 50px;
+		border-bottom: 2px solid #427900;
+	}
+	
+	#counter{
+		background-color: #2755E9;
+		width: 100%;
+		height: auto;
+		padding: 70px 0 70px 0;
+	}
+	
+	#do{
+		background-color: #F7F8FA;
+		width: 100%;
+		height: auto;
+	}
+	
+	#counter .counter-box h2{
+		font-size: 55px;
+	}
+	
+	#counter .counter-box p{
+		font-size: 14px;
+		color: #ffffff;
+		font-weight: 600;
+	}
+	
+	#counter .counter-box p span{
+		color: #07E227;
+		font-weight: 600;
+		font-size: 18px !important;
+	}
+	
+	#do .do-box h4{
+		font-size: 25px;
+		margin-top: 10px;
+		color: #316DC3;
+		font-weight: 600;
+	}
+
+
+	.fine{
+		transition: 0.5s;
+	}
+
+
+	.fine :hover{
+		transform: scale(1.2,1.2);
+	}
+
+
+	
+	#mission .mission-heading h2{
+		font-size: 25px;
+		color: #316DC3;
+		font-weight: 600;
+		line-height: 50px;
+	}
+	
+	#mission .mission-heading h2::before{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		line-height: 30px;
+		left: 0;
+		width: 50px;
+		border-bottom: 2px solid #427900;
+	}
+	
+	#mission .mission-box{
+		background-color: #F7F8FA;
+	}
+	
+	#mission .mission-box p{
+		font-size: 18px;
+		font-weight: 600;
+		color: #316DC3;
+	}
+
+
+	.bin{
+		transition: 0.5s;
+	}
+
+
+	.bin:hover{
+		transform: scale(1.2,1.2);
+
+	}
+
+	.jay{
+		transition: 0.5s;
+	}
+
+	.jay:hover {
+		transform: scale(1.2,1.2);
+	}
+	
+	#footer{
+		background-color: #25272E;
+		width: 100%;
+		height: auto;
+		padding: 25px 0 30px 0;
+	}
+	
+	#footer .contacts .fa{
+		color: #427900;
+	}
+	
+	#footer .contacts ul li{
+		font-size: 14px;
+		line-height: 1.7px;
+	}
+	
+	#footer .footer-heading{
+		border-bottom: 1px solid #444;
+	}
+	
+	#footer .footer-heading h2{
+		font-size: 15px;
+		color: #ffffff;
+		font-weight: 600;
+		/* line-height: 50px; */
+	}
+	
+	#footer .footer-heading h2::before{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		line-height: 30px;
+		left: 0;
+		width: 50px;
+		border-bottom: 2px solid #427900;
+	}
+	
+	#footer .connects h2{
+		font-size: 15px;
+		color: #ffffff;
+		font-weight: 600;
+		transition: 0.5s;
+	}
+	
+
+	#footer .social-icons .facebook{
+		border-radius: 50%;
+		background-color: #316DC3;
+		width: 30px;
+		height: 30px;
+		margin:0 5px 0 5px;
+	}
+
+
+	#footer .social-icons .facebook:hover{
+
+		transform: scale(1.2,1.2);
+		}
+	
+	#footer .social-icons .facebook .fa{
+		transform: translate(100%, 27%);
+		color: #ffffff;
+	}
+	
+	#footer .social-icons .twitter{
+		border-radius: 50%;
+		background-color: #316DC3;
+		width: 30px;
+		height: 30px;
+		margin:0 5px 0 5px;
+	}
+
+	#footer .social-icons .twitter:hover{
+
+		transform: scale(1.2,1.2);
+		}
+	
+	#footer .social-icons .twitter .fa{
+		transform: translate(55%, 22%);
+		color: #ffffff;
+	}
+	
+	#footer .social-icons .instagram{
+		border-radius: 50%;
+		background-color: #316DC3;
+		width: 30px;
+		height: 30px;
+		margin:0 5px 0 5px;
+	}
+	#footer .social-icons .instagram:hover{
+
+	transform: scale(1.2,1.2);
+	}
+	
+	#footer .social-icons .instagram .fa{
+		transform: translate(50%, 22%);
+		color: #ffffff;
+	}
+	
+	#footer .social-icons .youtube{
+		border-radius: 50%;
+		background-color: #316DC3;
+		width: 30px;
+		height: 30px;
+		margin:0 5px 0 5px;
+	}
+
+	#footer .social-icons .youtube:hover{
+		transform: scale(1.2,1.2);
+	}
+	
+	#footer .social-icons .youtube .fa{
+		transform: translate(44%, 20%);
+		color: #ffffff;
+	}
+
+	
+	.corbg{
+		background-color: #316DC3;
+	}
+	
+	.corbg p{
+		text-align: center;
+		color: #ffffff;
+		margin: 0;
+		line-height: 50px;
+		font-size: 15px;
+	}

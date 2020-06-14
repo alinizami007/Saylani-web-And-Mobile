@@ -1,0 +1,20 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+td {
+    width: 5vw;
+    border: 1px solid black;
+   text-align: center;
+}
+.man {
+    border: none;
+}
+.pana {
+    background-color: rgb(251, 255, 13);
+    padding: 5px;
+    font-size: 60px;
+}

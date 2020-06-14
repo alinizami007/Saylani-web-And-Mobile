@@ -1,0 +1,113 @@
+* {
+   
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+h2 {
+    color: rgb(107, 90, 205);
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+}
+
+.wrapper {
+    background-color: rgb(107, 90, 205);
+    width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label>span {
+    float: left;
+    width: 180px;
+    padding-top: 4px;
+}
+
+label>input {
+    padding: 2px;
+    margin-bottom: 18px;
+    color: #000;
+}
+
+label>input[type=checkbox] {
+    margin-bottom: 10px;
+}
+
+.radioPad {
+    margin-right: 30px;
+}
+
+#DOB {
+    margin-bottom: 18px;
+    color: gray;
+}
+
+#DOB>option {
+    color: #000;
+}
+
+textarea {
+    margin-bottom: 18px;
+    color: #000
+}
+
+label>textarea {
+    resize: none;
+}
+
+#blankSpan {
+    width: 180px;
+    float: left;
+}
+
+.centAlign {
+    text-align: center;
+    padding-right: 10px;
+}
+
+#board,
+#percentage,
+#year {
+    width: 120px;
+    color: #000;
+}
+
+
+
+
+/* These styles are for submitted form. */
+
+#check {
+    width: 200px;
+    margin: 50px auto 0 auto;
+}
+
+#subHead1 {
+    color: rgb(0, 142, 45);
+    font-family: 'Times New Roman', serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+#subHead2 {
+    color: rgb(115, 7, 195);
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#subHead3 {
+    color: rgb(115, 7, 195);
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.dom{
+    margin-top: 20px;
+}
